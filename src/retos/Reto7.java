@@ -1,13 +1,11 @@
 package retos;
 
 import java.util.ArrayList;
-import java.util.Random;
 import java.util.Scanner;
 
 public class Reto7 {
     public static void main(String[] args) {
         Scanner lectura = new Scanner(System.in);
-        Random ramdom = new Random();
 
         int valor, x;
         Object resultado;
