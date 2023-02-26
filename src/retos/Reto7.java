@@ -1,4 +1,4 @@
-package retos;
+﻿package retos;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -24,30 +24,30 @@ public class Reto7 {
 
             System.out.println(bolitas);
 
-            x = (int) (Math.random() * 3);
+            x = (int) (Math.random() * 4);
 
             resultado = bolitas.get(x);
 
-            System.out.println("Valor elegido: " + resultado);
+            System.out.println("Valor obtenido: " + resultado);
 
             if(resultado == "rojo"){
 
-                System.out.println("Ha salido: " + resultado);
+
                 System.err.println("Has obtenido el descuento del 10% sobre el valor de tu compra");
 
             }else if(resultado == "amarillo"){
 
-                System.out.println("Ha salido: " + resultado);
+
                 System.err.println("Has obtenido el descuento del 50% sobre el valor de tu compra");
 
             }else if(resultado == "azul"){
 
-                System.out.println("Ha salido: " + resultado);
+
                 System.err.println("Has obtenido el descuento del 30% sobre el valor de tu compra");
 
             }else if(resultado == "blanco"){
 
-                System.out.println("Ha salido: " + resultado);
+
                 System.err.println("Has obtenido tu compra gratis");
 
             }else{
@@ -56,7 +56,7 @@ public class Reto7 {
 
 
         }else{
-            System.out.println("El valor de la compra es inferior de $50.000");
+            System.out.println("El valor de la compra es inferior de $50.000, no aplicas para los descuentos");
         }
 
         lectura.close();
