@@ -15,7 +15,7 @@ public class Reto7 {
 
         if(valor >= 50000){
 
-            ArrayList bolitas = new ArrayList<>();
+            ArrayList<String> bolitas = new ArrayList<String>();
 
             bolitas.add("rojo");
             bolitas.add("amarillo");
