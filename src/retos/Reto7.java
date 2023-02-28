@@ -7,13 +7,13 @@ public class Reto7 {
     public static void main(String[] args) {
         Scanner lectura = new Scanner(System.in);
 
-        int valor, x;
-        Object resultado;
+        int value, x;
+        Object result;
 
         System.out.println("Ingrese el valor de la compra");
-        valor = lectura.nextInt();
+        value = lectura.nextInt();
 
-        if(valor >= 50000){
+        if(value >= 50000){
 
             ArrayList<String> bolitas = new ArrayList<String>();
 
@@ -26,26 +26,26 @@ public class Reto7 {
 
             x = (int) (Math.random() * 4);
 
-            resultado = bolitas.get(x);
+            result = bolitas.get(x);
 
-            System.out.println("Valor obtenido: " + resultado);
+            System.out.println("valor obtenido: " + result);
 
-            if(resultado == "rojo"){
+            if(result == "rojo"){
 
 
                 System.err.println("Has obtenido el descuento del 10% sobre el valor de tu compra");
 
-            }else if(resultado == "amarillo"){
+            }else if(result == "amarillo"){
 
 
                 System.err.println("Has obtenido el descuento del 50% sobre el valor de tu compra");
 
-            }else if(resultado == "azul"){
+            }else if(result == "azul"){
 
 
                 System.err.println("Has obtenido el descuento del 30% sobre el valor de tu compra");
 
-            }else if(resultado == "blanco"){
+            }else if(result == "blanco"){
 
 
                 System.err.println("Has obtenido tu compra gratis");

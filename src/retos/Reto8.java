@@ -7,22 +7,22 @@ public class Reto8 {
     public static void main(String[] args) {
         Scanner lectura = new Scanner(System.in);
 
-            int valor, x, cantidad, i, precio, cantidadP, descuento, precioD;
+            int valor, x, amount, i, price, amountP, discount, priceD;
             Object resultado;
 
             System.out.println("Digite la cantidad de productos: ");
-            cantidad = lectura.nextInt();
+            amount = lectura.nextInt();
 
             valor = 0;
 
-            for(i = 1; i <= cantidad; i++){
+            for(i = 1; i <= amount; i++){
                 System.out.println("Ingrese el precio del producto #" + i + ":");
-                precio = lectura.nextInt();
+                price = lectura.nextInt();
 
                 System.out.println("Ingrese la cantidad del producto #" + i + ":");
-                cantidadP = lectura.nextInt();
+                amountP = lectura.nextInt();
 
-                valor += precio * cantidadP;
+                valor += price * amountP;
             }
 
             System.out.println("El total a pagar es: " + valor);
@@ -48,21 +48,21 @@ public class Reto8 {
 
                 if(resultado == "rojo"){
 
-                    descuento = (int) ((int) valor * 0.1);
-                    precioD = (valor - descuento);
-                    System.err.println("Has obtenido el descuento del 10% sobre el valor de tu compra, el valor total con descuento es de: " + precioD);
+                    discount = (int) ((int) valor * 0.1);
+                    priceD = (valor - discount);
+                    System.err.println("Has obtenido el descuento del 10% sobre el valor de tu compra, el valor total con descuento es de: " + priceD);
 
                 }else if(resultado == "amarillo"){
 
-                    descuento = (int) ((int) valor * 0.5);
-                    precioD = (valor - descuento);
-                    System.err.println("Has obtenido el descuento del 50% sobre el valor de tu compra, el valor total con descuento es de: " + precioD);
+                    discount = (int) ((int) valor * 0.5);
+                    priceD = (valor - discount);
+                    System.err.println("Has obtenido el descuento del 50% sobre el valor de tu compra, el valor total con descuento es de: " + priceD);
 
                 }else if(resultado == "azul"){
 
-                    descuento = (int) ((int) valor * 0.3);
-                    precioD = (valor - descuento);
-                    System.err.println("Has obtenido el descuento del 30% sobre el valor de tu compra, el valor total con descuento es de: " + precioD);
+                    discount = (int) ((int) valor * 0.3);
+                    priceD = (valor - discount);
+                    System.err.println("Has obtenido el descuento del 30% sobre el valor de tu compra, el valor total con descuento es de: " + priceD);
 
                 }else if(resultado == "blanco"){
 
