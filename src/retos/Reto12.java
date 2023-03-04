@@ -1,8 +1,8 @@
-package ejercicios;
+package retos;
 
 import java.util.Scanner;
 
-public class MachineExp {
+public class Reto12 {
     public static void main(String[] args) {
         Scanner lectura = new Scanner(System.in);
 
@@ -23,6 +23,8 @@ public class MachineExp {
                 System.out.println(price[f][c] + "\t");
             }
         }
+
+        lectura.close();
 
     }
 }
