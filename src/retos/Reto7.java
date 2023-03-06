@@ -33,22 +33,22 @@ public class Reto7 {
             if(result == "rojo"){
 
 
-                System.err.println("Has obtenido el descuento del 10% sobre el valor de tu compra");
+                System.out.println("Has obtenido el descuento del 10% sobre el valor de tu compra");
 
             }else if(result == "amarillo"){
 
 
-                System.err.println("Has obtenido el descuento del 50% sobre el valor de tu compra");
+                System.out.println("Has obtenido el descuento del 50% sobre el valor de tu compra");
 
             }else if(result == "azul"){
 
 
-                System.err.println("Has obtenido el descuento del 30% sobre el valor de tu compra");
+                System.out.println("Has obtenido el descuento del 30% sobre el valor de tu compra");
 
             }else if(result == "blanco"){
 
 
-                System.err.println("Has obtenido tu compra gratis");
+                System.out.println("Has obtenido tu compra gratis");
 
             }else{
                 System.out.println("Ha ocurrido un error inesperado");

@@ -50,23 +50,23 @@ public class Reto8 {
 
                     discount = (int) ((int) valor * 0.1);
                     priceD = (valor - discount);
-                    System.err.println("Has obtenido el descuento del 10% sobre el valor de tu compra, el valor total con descuento es de: " + priceD);
+                    System.out.println("Has obtenido el descuento del 10% sobre el valor de tu compra, el valor total con descuento es de: " + priceD);
 
                 }else if(resultado == "amarillo"){
 
                     discount = (int) ((int) valor * 0.5);
                     priceD = (valor - discount);
-                    System.err.println("Has obtenido el descuento del 50% sobre el valor de tu compra, el valor total con descuento es de: " + priceD);
+                    System.out.println("Has obtenido el descuento del 50% sobre el valor de tu compra, el valor total con descuento es de: " + priceD);
 
                 }else if(resultado == "azul"){
 
                     discount = (int) ((int) valor * 0.3);
                     priceD = (valor - discount);
-                    System.err.println("Has obtenido el descuento del 30% sobre el valor de tu compra, el valor total con descuento es de: " + priceD);
+                    System.out.println("Has obtenido el descuento del 30% sobre el valor de tu compra, el valor total con descuento es de: " + priceD);
 
                 }else if(resultado == "blanco"){
 
-                    System.err.println("Has obtenido tu compra gratis");
+                    System.out.println("Has obtenido tu compra gratis");
 
                 }else{
                     System.out.println("Ha ocurrido un error inesperado");
