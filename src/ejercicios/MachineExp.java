@@ -24,5 +24,7 @@ public class MachineExp {
             }
         }
 
+        lectura.close();
+
     }
 }
